@@ -8,7 +8,7 @@ echo "Prepare the boot files: PXE requires specific boot files for the clients t
 echo "Configure the DHCP server: Modify the DHCP server configuration to provide the appropriate PXE boot file and the location of the TFTP server to the clients. This information will be used by the clients to fetch the necessary files and boot over the network."
 echo "Set up the TFTP server: Place the boot files obtained in step 3 in the appropriate directory of the TFTP server. The exact location may vary depending on the TFTP server software you are using."
 echo "Test the PXE boot: Connect a client computer to the same network as your Ubuntu Server and configure it to boot from the network (PXE). When you start the client computer, it should receive an IP address from the DHCP server, fetch the necessary boot files from the TFTP server, and initiate the network boot process."
-echo "By following these steps, you can successfully set up PXE on your Ubuntu Server and use it to boot client computers over the network. Make sure to consult the documentation or specific guides for the DHCP and TFTP server software you choose to ensure proper configuration and compatibility."<br><br>
+echo "By following these steps, you can successfully set up PXE on your Ubuntu Server and use it to boot client computers over the network. Make sure to consult the documentation or specific guides for the DHCP and TFTP server software you choose to ensure proper configuration and compatibility."
 
 
 #!/bin/bash
